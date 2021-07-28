@@ -1,0 +1,25 @@
+{
+  "name": "d-p-rpc",
+  "version": "1.0.0",
+  "description": "pubg custom rpc",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "build": "pkg app.js --targets node14-win-x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faketi101/d-p-rpc.git"
+  },
+  "author": "faketi101",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faketi101/d-p-rpc/issues"
+  },
+  "homepage": "https://github.com/faketi101/d-p-rpc#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^10.0.0",
+    "pkg": "^5.3.1"
+  }
+}
